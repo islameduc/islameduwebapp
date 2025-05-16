@@ -1,0 +1,139 @@
+.contact__location__wrapper {
+  padding: 64px;
+  background: var(--Foundation-RT-White-Light);
+}
+.contact__description {
+  display: none;
+}
+.contact__location {
+  display: flex;
+}
+
+.contact__location > div {
+  flex: 1;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 29px 58px;
+  background: #fdfdfd;
+  flex-wrap: wrap;
+  gap: 3rem;
+  width: 100%;
+}
+
+.icon__detailes {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.icon__detailes h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #003136;
+}
+
+.icon__detailes p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  color: #003136;
+}
+.contact__form2{
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .contact__location__wrapper {
+    padding: 32px;
+    margin-bottom: 0;
+  }
+  .contact__location {
+    display: flex;
+    gap: 5rem;
+  }
+  .icons {
+    margin-top: 4rem;
+    padding: 0;
+    width: 100%;
+    gap: 2rem;
+  }
+  .icon__detailes p {
+    font-size: 14px;
+  }
+}
+
+
+
+@media screen and (max-width: 780px) {
+
+  .contact__location__wrapper {
+    padding: 22px;
+    gap: 21px;
+    margin: 0;
+  }
+  .contact__description {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+   line-height: 19px;
+   color: #000000;
+  
+   margin-left: 25px;
+  }
+  .contact__location{
+    flex-direction: column-reverse;
+  }
+  .contact__form {
+    display: none;
+  }
+  .contact__form2 {
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+
+  }
+    
+  .icons {
+    width: 100%;
+    flex-direction: column-;
+    align-items: flex-start; /* Align icons to flex-start */
+    gap: 1rem;
+    padding: 0;
+  }
+  
+  .icon__detailes {
+    width: 100%;
+    justify-content: flex-start; /* Ensure details align to flex-start */
+    align-items: center;
+    gap: 1rem;
+  }
+
+.btn{
+  font-size: 10px;
+  justify-content: center;
+  }
+
+
+  .icon__detailes h2,
+  .icon__detailes p {
+    font-size: 16px;
+    line-height: 1.2;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .icon__detailes h2,
+  .icon__detailes p {
+    font-size: 12px;
+    line-height: 1.2;
+    gap: 0;
+  }
+}

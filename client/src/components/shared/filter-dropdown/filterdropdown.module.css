@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 105px;
+  background: #F3F3F399;
+  padding: 23px 15px;
+  gap: 1.3rem;
+  position: relative;
+}
+
+.toggler {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+@media  screen and (max-width: 1000px) {
+
+  .container{
+    width: 200px;
+  }
+}
+@media  screen and (max-width: 480px) {
+
+  .container{
+    width: 140px;
+    height: 80px;
+    padding: 19px, 10px;
+  }
+}
+@media  screen and (max-width: 350px) {
+
+  .container{
+    width: 120px;
+    height: 80px;
+    padding: 15px, 10px;
+  }
+}

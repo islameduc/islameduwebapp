@@ -1,0 +1,54 @@
+.container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  
+}
+.container:disabled {
+  background-color: #929283;
+  color: #929283;
+  cursor: not-allowed;
+  border: none;
+}
+.container:hover {
+  opacity: 0.85;
+}
+.texts {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    padding: 14px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+.container{
+    padding: 16px 32px;
+    gap: 16px;
+    text-decoration: none;
+    margin-top: 3rem;
+   
+  }
+}
+@media screen and (max-width: 830px) {
+  .container{
+    margin: 1rem 1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 583px) {
+  .container{
+    gap: 16px;
+    margin-top: 3rem;
+   
+  }
+  }

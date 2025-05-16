@@ -1,0 +1,29 @@
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+
+    button {
+        width: 20px;
+        height: 25px;
+        font-size: 12px;
+        margin: 0 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background: transparent;
+        color: white;
+        background-color: rgb(38, 36, 36);
+    }
+
+    button.active {
+        background: #26933e;
+        font-weight: 800;
+    }
+
+    .arrow-button {
+        width: 25px;
+        font-size: 14px;
+    }
+}

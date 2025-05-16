@@ -1,0 +1,239 @@
+.img__container {
+  /* background-color: red; */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 0px 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.img__container:hover {
+  opacity: 0.98;
+}
+
+.img__wrapper {
+  position: relative;
+  width: 220px;
+  height: 260px;
+}
+
+.img__wrapper img {
+  width: 100%;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.images {
+  position: absolute;
+  top: 1.6rem;
+  right: 2.4rem;
+}
+
+.images img {
+  width: 26px;
+  height: 26px;
+  border: 2px solid var(--Foundation-RT-White-Light);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.images img:nth-child(2) {
+  margin-left: -1rem;
+}
+
+.images img:nth-child(3) {
+  margin-left: -1rem;
+}
+
+.images img:nth-child(4) {
+  margin-left: -1rem;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 10px 0px;
+}
+
+.titleText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  position: absolute;
+  bottom: 30px;
+  width: 80%;
+  background-color: #fdfdfd;
+  display: flex;
+  justify-content: center;
+  margin: 0 24px;
+  padding: 10px;
+  border-radius: 7px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.more__container {
+  visibility: hidden;
+  white-space: nowrap;
+  display: grid;
+}
+
+.project__description {
+  visibility: hidden;
+}
+
+.cover_image {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 260px;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 450px) {
+  .titleText {
+    visibility: hidden;
+    margin-bottom: -50px;
+  }
+
+  .images {
+    margin-right: -60px;
+  }
+  .img__container, .cover_image{
+    position: relative;
+    display: inline-block;
+    width: 326px;
+    height: 220px;
+    /*
+    margin-right: 31px;
+    margin-left: 33px;
+    */
+  }
+
+  .more__container {
+    visibility: visible;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    margin-right: 24px;
+  }
+
+  .more {
+    position: absolute;
+    top: 93%; 
+    left: 86%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 19px;
+    font-weight: 700;
+    z-index: 10; 
+  }
+
+  .more:hover {
+    font-style: underline;
+  }
+
+  .images {
+    visibility: hidden;
+  }
+
+  .cover_image {
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 10px;
+  }
+
+  .project__description {
+    visibility: visible;
+    margin: 23px 123px 71px 17px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    width: 100%;             
+    white-space: normal;     
+    overflow: visible;       
+    word-wrap: break-word; 
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .img__container, .cover_image{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 378px){
+  .img__container, .cover_image{
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 365px){
+  .img__container, .cover_image{
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 355px){
+  .img__container, .cover_image{
+    width: 270px;
+    height: 200px;
+  }
+  .project__description{
+    font-size: 15px;
+    margin-left: 9px;
+  }
+  .more{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 345px){
+  .img__container, .cover_image{
+    width: 260px;
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 335px){
+  .img__container, .cover_image{
+    width: 250px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 325px){
+  .img__container, .cover_image{
+    width: 240px;
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 325px){
+  .img__container, .cover_image{
+    width: 230px;
+    height: 160px;
+  }
+}

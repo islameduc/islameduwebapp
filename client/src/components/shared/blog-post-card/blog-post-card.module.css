@@ -1,0 +1,34 @@
+.postContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.category {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #079c4f;
+  text-align: center;
+  font-weight: bold;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.content {
+  font-size: 1.2em;
+  line-height: 1.6;
+}

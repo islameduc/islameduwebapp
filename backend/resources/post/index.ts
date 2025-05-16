@@ -1,0 +1,5 @@
+export { default as PostController } from '@/resources/post/post.controller'
+export { default as Post } from '@/resources/post/post.interface'
+export { default as PostModel } from '@/resources/post/post.model'
+export { default as PostService } from '@/resources/post/post.service'
+export { default as validate } from '@/resources/post/post.validation'

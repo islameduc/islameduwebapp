@@ -1,0 +1,12 @@
+.categoriesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 800px) {
+  .categoriesContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,55 @@
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #333;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+section * {
+    font-size: 1.3em;
+    color: #666;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.vision {
+    background: #e1f5fe;
+}
+
+.mission {
+    background: #ffebee;
+}
+
+.whoWeAre {
+    background: #e8f5e9;
+}
+
+.whatWeDo {
+    background: #fff3e0;
+}
